@@ -10,7 +10,7 @@ async function matchesAsync(arr, key) {
       if (element === key) {
         count += 1;
       }
-      await sleep(0);
+      //removed await sleep(0), unnecesary
     }
     return count;
   }
